@@ -1,0 +1,136 @@
+.rubik-primary {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.oxygen-mono-regular {
+  font-family: "Oxygen Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+:root {
+  --white: #f7f8fa;
+  --ltblue: #95deff;
+  --dkseafoamblue: #004b6b;
+  --magenta: #fa1593;
+  --dkpink: #e310cb;
+  --plum: #750037;
+  --dkblue: #052240;
+  --black: #171321;
+  --font-size: 1.3rem;
+  --mono: "Oxygen Mono", monospace;
+  --sans: "Rubik", sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--sans);
+  background-color: var(--dkblue);
+  color: var(--white);
+  font-size: var(--font-size);
+  font-weight: 400;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-weight: 500;
+
+}
+p {
+  font-weight: 300;
+}
+a {
+  color: var(--dkpink)
+}
+a:hover {
+  color: var(--magenta);
+  text-decoration: none;
+}
+
+/* nav bar styles */
+
+nav {
+  font-family: var(--mono);
+  font-size: 80%;
+}
+#navbar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0 2rem;
+  overflow: hidden;
+  text-decoration: none;
+}
+li {
+  float: left;
+  padding: 0 1rem;
+
+}
+li a{
+  justify-content: left;
+  display: block;
+  text-decoration: none;
+}
+
+/* intro styles */
+
+#intro {
+  padding-bottom: 10rem;
+}
+#intro h2 {
+  font-size: 2rem;
+  font-weight: normal;
+}
+#intro p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+#intro .name {
+  font-family: var(--mono);
+}
+.name span {
+  font-family: var(--sans);
+  font-size: 4rem;
+  color: var(--ltblue);
+  display: block;
+}
+
+/* contact styles */
+
+#contact {
+  padding: 1rem 0 6rem 0;
+  margin: 0 auto;
+  text-align: center;
+  background-color: var(--plum);
+  justify-content: center;
+}
+#contact h3 {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+#contact p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+#contact .name {
+  font-family: var(--mono);
+}
+.name span {
+  font-family: var(--sans);
+  font-size: 4rem;
+  color: var(--ltblue);
+  display: block;
+}
