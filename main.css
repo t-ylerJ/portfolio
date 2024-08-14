@@ -1,4 +1,4 @@
-.rubik-primary {
+ .rubik-primary {
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
@@ -66,25 +66,63 @@ a:hover {
 nav {
   font-family: var(--mono);
   font-size: 80%;
+  padding: 1rem 2rem;
+  background-color: var(--dkseafoamblue);
 }
-#navbar ul{
+
+nav h1 {
+  text-decoration: none;
+  font-family: var(--sans);
+
+  font-weight: 400;
+}
+nav ul {
   list-style-type: none;
+  padding: 0;
   margin: 0;
-  padding: 0 2rem;
-  overflow: hidden;
-  text-decoration: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
-li {
-  float: left;
-  padding: 0 1rem;
+
+nav li:first-child  {
+  flex-basis: 100%;
+  text-align: center;
 
 }
-li a{
-  justify-content: left;
+nav [class*="fa-"] {
+  font-size: 120%;
+  color: var(--ltblue);
+}
+nav a {
+  color: var(--white);
+  text-decoration: none;
   display: block;
-  text-decoration: none;
 }
 
+nav a:hover {
+  color: var(--dkpink);
+}
+
+.button {
+  background-color: var(--magenta);
+  padding: .5rem;
+  border-radius: 5px;
+}
+.button:hover{
+  color: var(--white);
+  background-color: var(--dkpink);
+  padding: .5rem;
+  border-radius: 5px;
+}
+
+@media (min-width: 850px){
+  nav {
+    max-width: 1200px;
+  }
+}
 /* intro styles */
 
 #intro {
