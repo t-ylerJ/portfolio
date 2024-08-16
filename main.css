@@ -109,10 +109,12 @@ nav a:hover {
 }
 
 .button {
+  font-family: var(--mono  );
   color: var(--dkblue);
   background-color: var(--ltblue);
   padding: .5rem;
   border-radius: 5px;
+  text-decoration: none;
 }
 .button:hover{
   color: var(--white);
@@ -126,6 +128,11 @@ nav a:hover {
     margin: 0 auto;
     /* max-width: 1200px; */
   }
+}
+
+/* background color divs */
+.section-plum {
+  background-color: var(--plum);
 }
 /* intro styles */
 
@@ -156,10 +163,10 @@ nav a:hover {
 /* contact styles */
 
 #contact {
+  width: 400px;
   padding: 1rem 0 6rem 0;
   margin: 0 auto;
   text-align: center;
-  background-color: var(--plum);
   justify-content: center;
 }
 
@@ -185,7 +192,7 @@ nav a:hover {
 footer {
   font-size: 1rem;
   text-align: center;
-  padding-top: 4rem;
+  padding: 4rem 0;
   margin: 0;
   margin: 2rem 0;
 
