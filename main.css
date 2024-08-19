@@ -283,6 +283,7 @@ nav a:hover {
 #about p {
   margin: 0;
   grid-column: 1/4;
+  font-size: 1.25rem;
 }
 #about .main {
   grid-row: 2;
