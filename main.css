@@ -134,6 +134,13 @@ nav a:hover {
 .section-plum {
   background-color: var(--plum);
 }
+
+.gradient {
+  /* background: linear-gradient(90deg, rgba(250,21,147,1) 0%, rgba(149,222,255,1) 84%); */
+
+background: linear-gradient(90deg, rgba(0,75,107,1) 19%, rgba(149,222,255,1) 72%);
+  height: 2px;
+}
 /* intro styles */
 
 #intro {
