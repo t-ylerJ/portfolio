@@ -217,9 +217,9 @@ nav a:hover {
   border-radius: 25px;
   padding: 1rem;
 }
-/* #projects img .arrow {
-  height: 50%;
-} */
+#projects #arrow {
+  /* height: 70%; */
+}
 @media (min-width: 550px) {
   article {
     display: grid;
