@@ -174,7 +174,7 @@ nav a:hover {
 }
 /* projects styles */
 #projects {
-  padding: 1rem 3rem 4rem 3rem;
+  padding: 2rem 3rem 4rem 3rem;
 }
 #projects h2 {
   font-size: 2.5rem;
@@ -255,7 +255,7 @@ nav a:hover {
 }
 /* About styles */
 #about {
-  padding: 4rem;
+  padding: 2rem 3rem 4rem 3rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -267,7 +267,7 @@ nav a:hover {
   margin-bottom: calc(2.5rem * 1.5);
 }
 #about img {
-  margin: 0rem 0 4rem  0;
+  margin: 0rem 0 2rem  0;
   padding: 0 0 0 1rem;
   width: 400px;
   grid-row: 2;
