@@ -245,10 +245,15 @@ nav a:hover {
     order: 2;
     text-align: left;
   }
+  #projects img {
+    grid-column: 1/6;
+    grid-row: 1/2;
+  }
   #projects .reverse img {
     grid-column: 6/11;
     grid-row: 1/2;
   }
+
   #projects .reverse ul {
     justify-content: flex-start;
   }
