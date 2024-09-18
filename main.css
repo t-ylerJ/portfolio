@@ -328,6 +328,16 @@ nav a:hover {
 }
 
 /* footer */
+#gh {
+  justify-content: space-between;
+  flex-direction: column;
+
+}
+.contributions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 footer {
   font-size: 1rem;
   text-align: center;
@@ -335,8 +345,6 @@ footer {
   margin: 0;
   margin: 2rem 0;
 }
-
-
 footer [class*="fa-"] {
   font-size: 120%;
   color: var(--ltblue);
