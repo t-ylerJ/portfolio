@@ -210,13 +210,15 @@ nav a:hover {
   font-size: 1rem;
 }
 #projects img {
-  height: 80%;
-  width: 70%;
+  height: 230px;
+  /* object-fit: contain; */
+  grid-column: 1/6;
+  grid-row: 1/2;
+  padding: 1rem;
   margin: 2rem 0 4rem 0;
   border-left: 1px solid var(--ltblue);
   border-top: 1px solid var(--ltblue);
   border-radius: 25px;
-  padding: 1rem;
 }
 #projects #arrow {
   /* height: 70%; */
@@ -247,8 +249,7 @@ nav a:hover {
     text-align: left;
   }
   #projects img {
-    grid-column: 1/6;
-    grid-row: 1/2;
+
   }
   #projects .reverse img {
     grid-column: 7/11;
