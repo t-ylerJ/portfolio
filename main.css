@@ -326,10 +326,16 @@ nav a:hover {
 
 /* footer */
 #gh {
-  padding-top: 2rem;
+  padding-top: .5rem;
   justify-content: space-between;
   flex-direction: column;
-
+}
+.gh-title {
+  margin: 1rem 2rem .5rem 0;
+  padding: 0 0 0 7rem;
+  text-align: start;
+  font-size: 70%;
+  font-weight: 400;
 }
 #copyright {
   font-size: smaller;
