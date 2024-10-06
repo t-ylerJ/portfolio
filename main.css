@@ -206,7 +206,7 @@ nav a:hover {
   margin: 0;
 }
 #projects img {
-  height: 265px;
+  height: 15rem;
   grid-column: 6/8;
   grid-row: 1/2;
   padding: .75rem;
@@ -242,7 +242,7 @@ nav a:hover {
 }
 /* Reverse Styles */
 #projects .reverse img {
-  height: 265px;
+  height: 15rem;
   grid-column: 2/4;
   grid-row: 1/2;
   padding: .75rem;
