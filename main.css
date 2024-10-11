@@ -185,7 +185,7 @@ nav a:hover {
 @media (min-width: 550px) {
   article {
     display: grid;
-    grid-template-columns: 1fr 1fr minmax(200px, 1fr) minmax(200px, 1fr);
+    grid-template-columns: 1fr auto;
     gap: 2rem;
     max-width: 100%;
   }
@@ -194,10 +194,12 @@ nav a:hover {
 #projects article {
   padding-bottom: 2rem;
 }
-
+/* Projects - images styles */
 #projects img {
   height: 16rem;
-  grid-column: 3/5;
+  width: auto;
+  max-width: 100%;
+  grid-column: 2/3;
   grid-row: 1/2;
   padding: .75rem;
   margin: 2rem 0 4rem 0;
@@ -208,6 +210,8 @@ nav a:hover {
 }
 #projects .reverse img {
   height: 16rem;
+  width: auto;
+  max-width: 100%;
   grid-column: 1/3;
   grid-row: 1/2;
   padding: .75rem;
@@ -229,9 +233,10 @@ nav a:hover {
 /* Projects text styles */
 .text {
   /* grid-column: 1/6; */
-  grid-column: 2/3;
+  grid-column: 1/2;
   grid-row: 1/2;
-  order: 2;
+  max-width: 100%;
+  /* order: 2; */
   text-align: left;
 }
 .reverse .text {
